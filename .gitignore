@@ -1,0 +1,15 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Private mentor and progress notes
+MENTOR_CYBERSEC.md
+PROGRESS.md
+
+# Do not publish solutions or gate-test material
+**/SOLUTION.md
+**/gate-test/
